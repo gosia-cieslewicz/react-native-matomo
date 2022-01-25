@@ -4,7 +4,7 @@ declare module "react-native-matomo" {
 
         export function setUserId(userId: string);
 
-        export function setCustomDimension(id: string, value: string);
+        export function setCustomDimension(id: number, value: string);
 
         export function setAppOptOut(isOptedOut: boolean);
 
